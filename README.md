@@ -29,7 +29,7 @@ Other tools and technologies used:
 3. `npm run prod`: run the project with a production bundle and AOT compilation
 
 ## Preview
-![Preview](url"Preview")
+![Preview](https://i.ibb.co/BytDHNQ/Screenshot-from-2019-02-15-17-35-01.png"Preview")
 
 ## Author
 * [Deta Elect Teem](https://github.com/DetaElectPro)
