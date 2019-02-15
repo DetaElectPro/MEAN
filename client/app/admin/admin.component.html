@@ -1,0 +1,33 @@
+<app-loading [condition]="isLoading"></app-loading>
+<app-toast [message]="toast.message"></app-toast>
+
+<mat-card *ngIf="!isLoading">
+  <mat-card-header>Registered users ({{users.length}})</mat-card-header>
+  <mat-card-content>
+    <table class="table table-bordered table-striped">
+      <thead class="thead-default">
+        <tr>
+          <th>Username</th>
+          <th>Email</th>
+          <th>Role</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody *ngIf="users.length === 0">
+        <tr>
+          <td colspan="4">There are no registered users.</td>
+        </tr>  
+      </tbody>
+      <tbody>
+        <tr *ngFor="let user of users">
+          <td>{{user.username}}</td>
+          <td>{{user.email}}</td>
+          <td>{{user.role}}</td>
+          <td>
+            <button mat-raised-button color="warn" (click)="deleteUser(user)" [disabled]="auth.currentUser._id === user._id">Delete</button>           
+          </td>
+        </tr>  
+      </tbody>
+    </table>
+  </mat-card-content>
+</mat-card>

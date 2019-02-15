@@ -1,0 +1,28 @@
+<app-loading [condition]="isLoading"></app-loading>
+<app-toast [message]="toast.message"></app-toast>
+
+<mat-card *ngIf="!isLoading">
+  <mat-card-header>Account settings</mat-card-header>
+  <mat-card-content>
+    <form #accountForm="ngForm" (ngSubmit)="save(user)">
+
+         <mat-form-field>
+            <input matInput type="text" name="username" [(ngModel)]="user.username" placeholder="Username" required autofocus>            
+          </mat-form-field>
+    
+          <mat-form-field>
+              <input matInput type="email" name="email" [(ngModel)]="user.email" placeholder="Email" required>            
+          </mat-form-field>
+             
+          <mat-form-field>
+            <mat-select [(value)]="selected" name="role" [(ngModel)]="user.role" placeholder="Role" required>
+              <mat-option>None</mat-option>
+              <mat-option value="hr">HR</mat-option>
+              <mat-option value="admin">Admin</mat-option>
+            </mat-select>
+          </mat-form-field>
+    
+          <button mat-raised-button color="primary" type="submit" [disabled]="!accountForm.form.valid">Save</button>      
+    </form>
+  </mat-card-content>
+</mat-card>
