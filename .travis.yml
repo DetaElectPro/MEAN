@@ -1,3 +1,8 @@
 language: node_js
 services:
 - mongodb
+cache: npm
+install:
+- cp .env.example .env
+script:
+- npm run dev
