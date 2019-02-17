@@ -3,6 +3,7 @@
  [![nvm version](https://img.shields.io/badge/version-v0.34.0-yellow.svg)]
  [4] [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/684/badge)](https://bestpractices.coreinfrastructure.org/projects/684)
 -->
+[![Build Status](https://travis-ci.org/DetaElectPro/MEAN.svg?branch=master)](https://travis-ci.org/DetaElectPro/MEAN) 
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2545/badge)](https://bestpractices.coreinfrastructure.org/projects/2545)
 # MEAN Stack Angular Nodejs Mongodb[![MIT license](http://img.shields.io/badge/license-MIT-lightgrey.svg)](http://opensource.org/licenses/MIT)
 
