@@ -8,5 +8,5 @@ cache: npm
 install:
   - cp .env.example .env
 script:
-  - npm i
+  - npm install
   - npm run dev
