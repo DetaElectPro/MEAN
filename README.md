@@ -26,6 +26,15 @@ Other tools and technologies used:
 2. Install Angular CLI: `npm i -g @angular/cli`
 3. From project root folder install all the dependencies: `npm i`
 
+### Installation 
+``` 
+git clone https://github.com/DetaElectPro/MEAN
+cd MEAN
+cp .env.example .env
+npm install
+npm run dev #(for development)
+```
+
 ## RUN
 1. Run `mongod` and `mongo` serices (If you get any error like connection faild, just create the folder C:\data\db).
    or `systemtlc start mongodb`on Linux 
