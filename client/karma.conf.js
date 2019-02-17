@@ -8,7 +8,7 @@
  */
 
 const browserProvidersConf = require('./browser-providers.conf');
-const {generateSeed} = require('./tools/jasmine-seed-generator');
+const {generateSeed} = require('./jasmine-seed-generator');
 
 // Karma configuration
 // Generated on Thu Sep 25 2014 11:52:02 GMT-0700 (PDT)
