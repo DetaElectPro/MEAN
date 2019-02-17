@@ -1,8 +1,8 @@
 {
   "name": "mean-stack",
-  "version": "0.0.0",
+  "version": "1.0.3",
   "license": "MIT",
-  "author": "Shohel Rana",
+  "author": "Elteyab Hassan",
   "description": "mean stack project built using Angular 6, Express, Mongoose and Node.",
   "angular-cli": {},
   "engines": {

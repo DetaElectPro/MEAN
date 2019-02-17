@@ -3,9 +3,10 @@ before_install:
   - npm i -g @angular/cli
   - npm install -g typescript
 services:
-- mongodb
+  - mongodb
 cache: npm
 install:
-- cp .env.example .env
+  - cp .env.example .env
 script:
-- npm run dev
+  - npm i
+  - npm run dev
