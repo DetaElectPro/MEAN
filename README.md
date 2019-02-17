@@ -1,12 +1,15 @@
 # MEAN Stack Angular Nodejs Mongodb[![MIT license](http://img.shields.io/badge/license-MIT-lightgrey.svg)](http://opensource.org/licenses/MIT)
 
-This is the MEAN stack development project with angular6, nodejs, expressjs, mongodb developed by [Angular CLI](https://github.com/angular/angular-cli) and [visual studio code](https://code.visualstudio.com/) tools.
+This is the MEAN stack development project with angular6, nodejs, expressjs, mongodb using TypeScript,  developed by [Angular CLI](https://github.com/angular/angular-cli) and [visual studio code](https://code.visualstudio.com/) tools.
 
 This project uses the [MEAN stack](https://en.wikipedia.org/wiki/MEAN_(software_bundle)):
 * [**M**ongoose.js](http://www.mongoosejs.com) ([MongoDB](https://www.mongodb.com)): database
 * [**E**xpress.js](http://expressjs.com): backend framework
 * [**A**ngular 6](https://angular.io): frontend framework
 * [**N**ode.js](https://nodejs.org): runtime environment
+* [**T**ypeScript](https://www.typescriptlang.org): is a language for application-scale JavaScript.
+
+
 
 Other tools and technologies used:
 * [Angular CLI](https://cli.angular.io): project scaffolding
@@ -24,7 +27,8 @@ Other tools and technologies used:
 3. From project root folder install all the dependencies: `npm i`
 
 ## RUN
-1. Run `mongod` and `mongo` serices (If you get any error like connection faild, just create the folder C:\data\db)
+1. Run `mongod` and `mongo` serices (If you get any error like connection faild, just create the folder C:\data\db).
+   or `systemtlc start mongodb`on Linux 
 2. `npm run dev`: concurrently execute MongoDB, Angular build, TypeScript compiler and Express server.
 3. `npm run prod`: run the project with a production bundle and AOT compilation
 
