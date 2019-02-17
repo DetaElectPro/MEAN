@@ -1,3 +1,9 @@
+# Node Version Manager 
+<!--[![Build Status](https://travis-ci.org/creationix/nvm.svg?branch=master)][3]
+ [![nvm version](https://img.shields.io/badge/version-v0.34.0-yellow.svg)]
+ [4] [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/684/badge)](https://bestpractices.coreinfrastructure.org/projects/684)
+-->
+[![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/2545/badge)](https://bestpractices.coreinfrastructure.org/projects/2545)
 # MEAN Stack Angular Nodejs Mongodb[![MIT license](http://img.shields.io/badge/license-MIT-lightgrey.svg)](http://opensource.org/licenses/MIT)
 
 This is the MEAN stack development project with angular6, nodejs, expressjs, mongodb using TypeScript,  developed by [Angular CLI](https://github.com/angular/angular-cli) and [visual studio code](https://code.visualstudio.com/) tools.
@@ -38,7 +44,7 @@ npm run dev #(for development)
 
 ## RUN
 1. Run `mongod` and `mongo` serices (If you get any error like connection faild, just create the folder C:\data\db).
-   or `systemtlc start mongodb`on Linux 
+   or `systemtlc start mongodb` or ` service mongod start`on Linux 
 2. `npm run dev`: concurrently execute MongoDB, Angular build, TypeScript compiler and Express server.
 3. `npm run prod`: run the project with a production bundle and AOT compilation
 
