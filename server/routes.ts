@@ -1,9 +1,12 @@
 import * as express from 'express';
 
-import UserCtrl from '../controllers/user';
-import EmployeeCtrl from '../controllers/employee';
-import AttendanceCtrl from '../controllers/attendance';
+import UserCtrl from './controllers/user';
+import EmployeeCtrl from './controllers/employee';
+import AttendanceCtrl from './controllers/attendance';
 
+import User from './models/user';
+import Employee from './models/employee';
+import Attendance from './models/attendance';
 
 export default function setRoutes(app) {
 
@@ -12,12 +15,6 @@ export default function setRoutes(app) {
   const employeeCtrl = new EmployeeCtrl();
   const attendanceCtrl = new AttendanceCtrl();
   const userCtrl = new UserCtrl();
-
-  // Home
-  router.route('/').get(function () {
-    return 'hello:';
-  });
-
 
   // Users
   router.route('/login').post(userCtrl.login);
