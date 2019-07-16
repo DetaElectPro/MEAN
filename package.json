@@ -35,7 +35,7 @@
     "@angular/platform-browser": "^6.0.3",
     "@angular/platform-browser-dynamic": "^6.0.3",
     "@angular/router": "^6.0.3",
-    "@auth0/angular-jwt": "^2.0.0",
+    "@auth0/angular-jwt": "^2.1.2",
     "adm-zip": "^0.4.13",
     "atob": "^2.1.2",
     "bcryptjs": "^2.4.3",
