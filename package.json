@@ -51,7 +51,7 @@
     "jsonwebtoken": "^8.2.1",
     "mongoose": "^5.4.13",
     "morgan": "^1.9.1",
-    "popper.js": "^1.14.3",
+    "popper.js": "^1.15.0",
     "rxjs": "^6.0.0",
     "rxjs-compat": "^6.2.0",
     "tether": "^1.4.7",
