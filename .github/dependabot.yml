@@ -1,0 +1,16 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "03:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: jasmine-core
+    versions:
+    - 3.6.0
+    - 3.7.0
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
